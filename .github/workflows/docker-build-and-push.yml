@@ -8,6 +8,10 @@ name: docker-build-and-push
 on:
   push:
     branches: [ "main" ]
+    
+env:
+  REGISTRY: docker.io
+  IMAGE_NAME: MarijaJoo/Kiii_hw5
 
 jobs:
   docker:
